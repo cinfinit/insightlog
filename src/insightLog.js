@@ -27,7 +27,6 @@ function log(level = "info", ...args) {
   const formatted = formatLog(level, context, args, count);
 
   if (isBrowser) {
-    console.log("the browser status ", isBrowser);
     console.log(formatted.msg, formatted.style, ...formatted.args);
     // logToFile(logObject);
     fetch("http://localhost:1337/api/logs", {
