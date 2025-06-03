@@ -1,0 +1,24 @@
+{
+  "name": "insightlog",
+  "version": "1.0.0",
+  "main": "src/insightLog.js",
+  "bin": {
+    "insightlog-dashboard": "./server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-dashboard": "node ./server.js"
+  },
+  "keywords": ["logging", "insightlog", "insightlog-dashboard" , "debugging", "logging library", "nodejs logging", "browser logging","debugger"],
+  "author": "cinfinit",
+  "license": "ISC",
+  "description": "InsightLog is a simple and effective logging library for Node.js and the browser.",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}

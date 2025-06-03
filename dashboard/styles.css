@@ -1,0 +1,80 @@
+body {
+    /* font-family: 'Segoe UI', sans-serif; */
+    margin: 20px;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    /* font-family: 'monospace', sans-serif, */
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  }
+  
+  h1 {
+    font-weight: 600;
+    color: #ECF0F1;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #34495E;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  th, td {
+    border: 1px solid #3F5870;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3F5870;
+    color: #ECF0F1;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #3a5068;
+  }
+  
+  .level-info { color: #3498DB; font-weight: bold; }
+  .level-warn { color: #F1C40F; font-weight: bold; }
+  .level-error { color: #E74C3C; font-weight: bold; }
+  .level-debug { color: #1ABC9C; font-weight: bold; }
+  .level-success { color: #2ECC71; font-weight: bold; }
+  
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 15px;
+    align-items: center;
+    background-color: #34495E;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  }
+  
+  .filters label {
+    font-weight: 500;
+    color: #ECF0F1;
+  }
+  
+  .filters input,
+  .filters select {
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #3F5870;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+  }
+  
+  .filters input::placeholder {
+    color: #bdc3c7;
+  }
+  
+  input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+  

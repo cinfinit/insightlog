@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InsightLog Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1> InsightLog Dashboard</h1>
+
+    <div class="filters">
+      <label for="levelFilter">Level:</label>
+      <select id="levelFilter">
+        <option value="">All</option>
+        <option value="info">Info</option>
+        <option value="warn">Warn</option>
+        <option value="error">Error</option>
+        <option value="debug">Debug</option>
+        <option value="success">Success</option>
+      </select>
+
+      <label for="textSearch">Search:</label>
+      <input type="text" id="textSearch" placeholder="Search logs" />
+
+      <label for="startTime">From:</label>
+      <input type="datetime-local" id="startTime" />
+
+      <label for="endTime">To:</label>
+      <input type="datetime-local" id="endTime" />
+    </div>
+
+    <table id="logTable">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Level</th>
+          <th>Message</th>
+          <th>File</th>
+          <th>Function</th>
+          <!-- <th>Repeat</th> -->
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="app.js"></script>
+  </body>
+</html>
