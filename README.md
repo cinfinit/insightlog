@@ -1,4 +1,5 @@
-# 🔍 insightLog
+
+# 🔍 insightLog [![NPM version](https://img.shields.io/npm/v/insightlog.svg?style=flat)](https://www.npmjs.com/package/insightlog) [![NPM downloads](https://img.shields.io/npm/dm/insightlog.svg?style=flat)](https://npmjs.org/package/insightlog)
 
 > A logging library with more brains than brawn.
 
