@@ -62,6 +62,12 @@ npx insightlog-dashboard
 
 Runs on http://localhost:1337
 
+and use the imports mention like these 
+
+```javascript
+import { log } from "insightlog";
+```
+
 HERE we goooooo !!! 
 
 <img src="./demo.png" alt="insightLog Demo" width="600">

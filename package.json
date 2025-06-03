@@ -19,9 +19,13 @@
     "browser logging",
     "debugger"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cinfinit/insightlog.git"
+  },
   "author": "cinfinit",
   "license": "ISC",
-  "description": "InsightLog is a simple and effective logging library for Node.js and the browser.",
+  "description": "🔍 InsightLog is a simple and effective logging library for Node.js and the browser.",
   "devDependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0"
